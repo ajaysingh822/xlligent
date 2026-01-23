@@ -47,18 +47,19 @@ export function Hero() {
       </div>
 
       {/* ================= HERO CONTENT ================= */}
-      <div className="relative z-10 max-w-7xl mx-auto text-center py-40 px-4">
-        <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-300 to-orange-400 text-2xl font-semibold">
-          Growing Businesses
+      
+      <div className="relative z-10 max-w-7xl mx-auto text-center py-40 px-4"><h1 className="text-7xl text-white font-extrabold">Smart Software Solution For&nbsp;</h1>
+        <span className="text-transparent  bg-clip-text bg-gradient-to-r from-yellow-300 to-orange-400 mt-5  text-4xl font-semibold">
+         Your Growing Businesses
         </span>
 
-        <p className="text-xl text-black max-w-3xl mx-auto mt-6 mb-10">
+        <p className="text-xl text-white max-w-3xl mx-auto mt-6 mb-10">
           Redefining Intelligent Innovations. Unleash your potential with
           innovative solutions that transform your vision into reality.
         </p>
 
         <ReactTyped
-          className="text-black font-bold text-3xl md:text-4xl border mt-5 px-8 py-4 rounded-full inline-block"
+          className="text-white font-bold text-3xl md:text-4xl border mt-5 px-8 py-4 rounded-full inline-block"
           strings={[
             "Industrial ERP Solutions",
             "Hospital Management Systems",
