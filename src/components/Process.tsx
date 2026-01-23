@@ -13,7 +13,7 @@ const StepCard = ({
   <motion.div
     initial={{ opacity: 0, y: 50 }}
     whileInView={{ opacity: 1, y: 0 }}
-    viewport={{ once: true }}
+    viewport={{ once: false }}
     transition={{ type: 'spring', bounce: 0.5, delay }}
     className="relative flex flex-col items-center text-center"
   >

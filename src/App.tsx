@@ -12,10 +12,13 @@ export function App() {
       <Navbar />
       <main>
         <Hero />
-        <Statistics />
+      
         <Services />
+       
         <WhyChooseUs />
+        <Statistics />
         <Process />
+           
         <Testimonials />
       </main>
       <Footer /><a

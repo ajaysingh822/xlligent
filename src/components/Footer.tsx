@@ -12,8 +12,8 @@ export function Footer() {
 
             </h2>
             <p className="text-gray-300 mb-6 leading-relaxed">
-              Creating digital experiences that inspire, engage, and convert.
-              Let's build something amazing together.
+              Creating Digital Experiences That Inspire, Engage, and Convert.
+              Let's Build Something Amazing Together.
             </p>
             <div className="flex space-x-4">
               {[Facebook, Twitter, Instagram, Linkedin].map((Icon, i) => <motion.a key={i} href="#" whileHover={{
@@ -53,7 +53,7 @@ export function Footer() {
             <h3 className="text-lg font-bold mb-6 text-blue-300">
               Stay Updated
             </h3>
-            <p className="text-gray-300 mb-4">
+            <p className="text-gray-300 mb-4 capitalize">
               Subscribe to our newsletter for the latest tech trends.
             </p>
             <form className="flex flex-col space-y-3">
@@ -74,7 +74,7 @@ export function Footer() {
             &copy; {new Date().getFullYear()} Xlligent Software. All rights reserved.
           </p>
           <div className="flex items-center space-x-2 text-sm text-gray-400">
-            <span>Made with xlligent</span>
+            <span>Made with Xlligent</span>
             <Heart size={16} className="text-red-500 fill-red-500 animate-pulse" />
             <span></span>
           </div>
