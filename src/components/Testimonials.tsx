@@ -45,7 +45,7 @@ export function Testimonials() {
     name: 'Sarah Johnson',
     role: 'CEO, TechStart',
     image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80',
-    content: 'The team at VibrantTech completely transformed our digital presence. Their attention to detail and creative solutions are unmatched.'
+    content: 'The team at Xlligent completely transformed our digital presence. Their attention to detail and creative solutions are unmatched.'
   }, {
     name: 'Michael Chen',
     role: 'Founder, GrowthLabs',

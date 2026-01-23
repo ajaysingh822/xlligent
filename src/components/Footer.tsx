@@ -74,7 +74,7 @@ export function Footer() {
             &copy; {new Date().getFullYear()} Xlligent Software. All rights reserved.
           </p>
           <div className="flex items-center space-x-2 text-sm text-gray-400">
-            <span>Made with xlligent</span>
+            <span>Made with Xlligent</span>
             <Heart size={16} className="text-red-500 fill-red-500 animate-pulse" />
             <span></span>
           </div>
