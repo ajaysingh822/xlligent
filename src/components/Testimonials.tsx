@@ -14,12 +14,12 @@ const TestimonialCard = ({
   opacity: 1,
   x: 0
 }} viewport={{
-  once: true
+  once: false
 }} transition={{
   duration: 0.6,
   delay
 }} className="bg-white p-8 rounded-3xl shadow-xl border border-gray-100 relative group">
-    <div className="absolute inset-0 bg-gradient-to-r from-purple-500 to-pink-500 rounded-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 -z-10 blur-sm" />
+    <div className="absolute inset-0 bg-gradient-to-r from-purple-500 to-pink-500 rounded-3xl opacity-0 opacity-100 transition-opacity duration-300 -z-10 blur-sm" />
 
     <div className="flex items-center space-x-1 mb-6">
       {[...Array(5)].map((_, i) => <Star key={i} size={18} className="fill-yellow-400 text-yellow-400" />)}
@@ -57,7 +57,7 @@ export function Testimonials() {
     image: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80',
     content: 'Working with them was a breeze. They understood our vision immediately and executed it with precision and flair.'
   }];
-  return <section id="testimonials" className="py-24 bg-white">
+  return <section id="testimonials" className="py-24 bg-white z-10 relative">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <motion.h2 initial={{
