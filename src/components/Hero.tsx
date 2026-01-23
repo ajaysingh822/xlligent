@@ -4,6 +4,7 @@ import React from "react";
 import { ArrowRight } from "lucide-react";
 import { ReactTyped } from "react-typed";
 import Threads from "./Threads";
+import FloatingLines from './FloatingLines';
 
 export function Hero() {
   return (
@@ -16,7 +17,8 @@ export function Hero() {
       {/* React Bits / Threads BG */}
       <div className="absolute inset-0 z-0 pointer-events-none">
         {/* <Threads /> */}
-        
+        <FloatingLines />
+
       </div>
 
       {/* Water Waves */}
